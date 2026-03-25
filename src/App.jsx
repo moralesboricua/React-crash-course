@@ -18,6 +18,7 @@ function App() {
       <Todo />
       <Todo />
     </div>
+    <Modal />
     </div>
   );
 }
