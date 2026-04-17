@@ -9,7 +9,7 @@ function Users() {
 
 
     async function fetchUser() {
-        const { data } = await axios.get(`https://jsonplaceholder.typicode.com/${User}`)
+        const { data } = await axios.get(`https://jsonplaceholder.typicode.com/users/${id}`)
         console.log(data)
         setUser(data)
     }
